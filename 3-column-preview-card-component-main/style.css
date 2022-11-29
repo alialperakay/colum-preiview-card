@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+   --Dark-cyan: hsl(184, 100%, 22%);
+--Very-dark-cyan: hsl(179, 100%, 13%);
+
+--paragraph: hsla(0, 0%, 100%, 0.75);
+--bf-heading-btn: hsl(0, 0%, 95%);
+}
+
+body{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+h2{
+    color: var(--bf-heading-btn);
+    text-transform: uppercase;
+}
+
+p{
+    color: var(--paragraph);
+}
+
+button{
+    text-transform: capitalize;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.container{
+    display:flex;
+    text-align: center;
+}
+
+.ikoncan{
+    align-items: center;
+    padding: 1rem;
+}
+
+.sutun1 button:hover{
+    color: var(--bf-heading-btn);
+    background-color: var(--Bright-orange);
+    border-color: var(--bf-heading-btn);
+    border: 1px solid;
+    
+}
+.sutun1 button{color: var(--Bright-orange);}
+.sutun1{
+    background-color: var(--Bright-orange);
+    width: 33.3%;
+    
+}
+
+.sutun2 button:hover{
+    color: var(--bf-heading-btn);
+    background-color: var(--Dark-cyan);
+    border: 1px solid;
+}
+.sutun2 button{color: var(--Dark-cyan);}
+.sutun2{
+      background-color: var(--Dark-cyan);
+      width: 33.3%;
+      column-gap: 5em;
+      
+}
+
+.sutun3 button:hover{
+    color: var(--bf-heading-btn);
+    background-color: var(--Very-dark-cyan);
+    border-color: var(--bf-heading-btn);
+    border: 1px solid;
+}
+.sutun3 button{color: var(--Very-dark-cyan);}
+.sutun3{
+      background-color: var(--Very-dark-cyan);
+      width: 33.3%;
+      
+      
+      
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
